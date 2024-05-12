@@ -1,7 +1,61 @@
-echo "# 4ducate-Project-3" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/4ducate/4ducate-Project-3.git
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo gallery UI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="header">
+        <h1 class="logo">PhotoGallery</h1>
+        <form>
+          <input type="text" placeholder="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </form>
+      </div>
+      <div class="gallery">
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?nature">
+            <img src="https://source.unsplash.com/featured/?nature" alt="Nature">
+            <h3>Nature</h3>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?architecture">
+            <img src="https://source.unsplash.com/featured/?architecture" alt="Architecture">
+            <h3>Architecture</h3>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?travel">
+            <img src="https://source.unsplash.com/featured/?travel" alt="Travel">
+            <h3>Travel</h3>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?technology">
+            <img src="https://source.unsplash.com/featured/?technology" alt="Technology">
+            <h3>Technology</h3>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?food">
+            <img src="https://source.unsplash.com/featured/?food" alt="Food">
+            <h3>Food</h3>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://source.unsplash.com/featured/?fashion">
+            <img src="https://source.unsplash.com/featured/?fashion" alt="Fashion">
+            <h3>Fashion</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+</html>
